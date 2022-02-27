@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD20241D27CBED2D00902B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20241C27CBED2D00902B73 /* AppDelegate.swift */; };
+		DD20241F27CBED2D00902B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20241E27CBED2D00902B73 /* SceneDelegate.swift */; };
+		DD20242127CBED2D00902B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20242027CBED2D00902B73 /* ViewController.swift */; };
+		DD20242427CBED2D00902B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20242227CBED2D00902B73 /* Main.storyboard */; };
+		DD20242627CBED3200902B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD20242527CBED3200902B73 /* Assets.xcassets */; };
+		DD20242927CBED3200902B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20242727CBED3200902B73 /* LaunchScreen.storyboard */; };
+		DD20243427CBED3300902B73 /* MisterAuto_MiniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20243327CBED3300902B73 /* MisterAuto_MiniAppTests.swift */; };
+		DD20243F27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20243E27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD20243027CBED3300902B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD20241127CBED2D00902B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD20241827CBED2D00902B73;
+			remoteInfo = "MisterAuto-MiniApp";
+		};
+		DD20243B27CBED3300902B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD20241127CBED2D00902B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD20241827CBED2D00902B73;
+			remoteInfo = "MisterAuto-MiniApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD20241927CBED2D00902B73 /* MisterAuto-MiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MisterAuto-MiniApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD20241C27CBED2D00902B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD20241E27CBED2D00902B73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD20242027CBED2D00902B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD20242327CBED2D00902B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD20242527CBED3200902B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD20242827CBED3200902B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD20242A27CBED3200902B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD20242F27CBED3300902B73 /* MisterAuto-MiniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MisterAuto-MiniAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD20243327CBED3300902B73 /* MisterAuto_MiniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterAuto_MiniAppTests.swift; sourceTree = "<group>"; };
+		DD20243527CBED3300902B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD20243A27CBED3300902B73 /* MisterAuto-MiniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MisterAuto-MiniAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD20243E27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterAuto_MiniAppUITests.swift; sourceTree = "<group>"; };
+		DD20244027CBED3300902B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD20241627CBED2D00902B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20242C27CBED3300902B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20243727CBED3300902B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD20241027CBED2D00902B73 = {
+			isa = PBXGroup;
+			children = (
+				DD20241B27CBED2D00902B73 /* MisterAuto-MiniApp */,
+				DD20243227CBED3300902B73 /* MisterAuto-MiniAppTests */,
+				DD20243D27CBED3300902B73 /* MisterAuto-MiniAppUITests */,
+				DD20241A27CBED2D00902B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD20241A27CBED2D00902B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD20241927CBED2D00902B73 /* MisterAuto-MiniApp.app */,
+				DD20242F27CBED3300902B73 /* MisterAuto-MiniAppTests.xctest */,
+				DD20243A27CBED3300902B73 /* MisterAuto-MiniAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD20241B27CBED2D00902B73 /* MisterAuto-MiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD20241C27CBED2D00902B73 /* AppDelegate.swift */,
+				DD20241E27CBED2D00902B73 /* SceneDelegate.swift */,
+				DD20242027CBED2D00902B73 /* ViewController.swift */,
+				DD20242227CBED2D00902B73 /* Main.storyboard */,
+				DD20242527CBED3200902B73 /* Assets.xcassets */,
+				DD20242727CBED3200902B73 /* LaunchScreen.storyboard */,
+				DD20242A27CBED3200902B73 /* Info.plist */,
+			);
+			path = "MisterAuto-MiniApp";
+			sourceTree = "<group>";
+		};
+		DD20243227CBED3300902B73 /* MisterAuto-MiniAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD20243327CBED3300902B73 /* MisterAuto_MiniAppTests.swift */,
+				DD20243527CBED3300902B73 /* Info.plist */,
+			);
+			path = "MisterAuto-MiniAppTests";
+			sourceTree = "<group>";
+		};
+		DD20243D27CBED3300902B73 /* MisterAuto-MiniAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD20243E27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift */,
+				DD20244027CBED3300902B73 /* Info.plist */,
+			);
+			path = "MisterAuto-MiniAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD20241827CBED2D00902B73 /* MisterAuto-MiniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20244327CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniApp" */;
+			buildPhases = (
+				DD20241527CBED2D00902B73 /* Sources */,
+				DD20241627CBED2D00902B73 /* Frameworks */,
+				DD20241727CBED2D00902B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MisterAuto-MiniApp";
+			productName = "MisterAuto-MiniApp";
+			productReference = DD20241927CBED2D00902B73 /* MisterAuto-MiniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD20242E27CBED3300902B73 /* MisterAuto-MiniAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20244627CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniAppTests" */;
+			buildPhases = (
+				DD20242B27CBED3300902B73 /* Sources */,
+				DD20242C27CBED3300902B73 /* Frameworks */,
+				DD20242D27CBED3300902B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD20243127CBED3300902B73 /* PBXTargetDependency */,
+			);
+			name = "MisterAuto-MiniAppTests";
+			productName = "MisterAuto-MiniAppTests";
+			productReference = DD20242F27CBED3300902B73 /* MisterAuto-MiniAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD20243927CBED3300902B73 /* MisterAuto-MiniAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20244927CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniAppUITests" */;
+			buildPhases = (
+				DD20243627CBED3300902B73 /* Sources */,
+				DD20243727CBED3300902B73 /* Frameworks */,
+				DD20243827CBED3300902B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD20243C27CBED3300902B73 /* PBXTargetDependency */,
+			);
+			name = "MisterAuto-MiniAppUITests";
+			productName = "MisterAuto-MiniAppUITests";
+			productReference = DD20243A27CBED3300902B73 /* MisterAuto-MiniAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD20241127CBED2D00902B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DD20241827CBED2D00902B73 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DD20242E27CBED3300902B73 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD20241827CBED2D00902B73;
+					};
+					DD20243927CBED3300902B73 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD20241827CBED2D00902B73;
+					};
+				};
+			};
+			buildConfigurationList = DD20241427CBED2D00902B73 /* Build configuration list for PBXProject "MisterAuto-MiniApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD20241027CBED2D00902B73;
+			productRefGroup = DD20241A27CBED2D00902B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD20241827CBED2D00902B73 /* MisterAuto-MiniApp */,
+				DD20242E27CBED3300902B73 /* MisterAuto-MiniAppTests */,
+				DD20243927CBED3300902B73 /* MisterAuto-MiniAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD20241727CBED2D00902B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20242927CBED3200902B73 /* LaunchScreen.storyboard in Resources */,
+				DD20242627CBED3200902B73 /* Assets.xcassets in Resources */,
+				DD20242427CBED2D00902B73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20242D27CBED3300902B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20243827CBED3300902B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD20241527CBED2D00902B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20242127CBED2D00902B73 /* ViewController.swift in Sources */,
+				DD20241D27CBED2D00902B73 /* AppDelegate.swift in Sources */,
+				DD20241F27CBED2D00902B73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20242B27CBED3300902B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20243427CBED3300902B73 /* MisterAuto_MiniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20243627CBED3300902B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20243F27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD20243127CBED3300902B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD20241827CBED2D00902B73 /* MisterAuto-MiniApp */;
+			targetProxy = DD20243027CBED3300902B73 /* PBXContainerItemProxy */;
+		};
+		DD20243C27CBED3300902B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD20241827CBED2D00902B73 /* MisterAuto-MiniApp */;
+			targetProxy = DD20243B27CBED3300902B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD20242227CBED2D00902B73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD20242327CBED2D00902B73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD20242727CBED3200902B73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD20242827CBED3200902B73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD20244127CBED3300902B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD20244227CBED3300902B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD20244427CBED3300902B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD20244527CBED3300902B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD20244727CBED3300902B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterAuto-MiniApp.app/MisterAuto-MiniApp";
+			};
+			name = Debug;
+		};
+		DD20244827CBED3300902B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterAuto-MiniApp.app/MisterAuto-MiniApp";
+			};
+			name = Release;
+		};
+		DD20244A27CBED3300902B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MisterAuto-MiniApp";
+			};
+			name = Debug;
+		};
+		DD20244B27CBED3300902B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUAG7T3NQ7;
+				INFOPLIST_FILE = "MisterAuto-MiniAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MisterAuto-MiniApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD20241427CBED2D00902B73 /* Build configuration list for PBXProject "MisterAuto-MiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20244127CBED3300902B73 /* Debug */,
+				DD20244227CBED3300902B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20244327CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20244427CBED3300902B73 /* Debug */,
+				DD20244527CBED3300902B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20244627CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20244727CBED3300902B73 /* Debug */,
+				DD20244827CBED3300902B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20244927CBED3300902B73 /* Build configuration list for PBXNativeTarget "MisterAuto-MiniAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20244A27CBED3300902B73 /* Debug */,
+				DD20244B27CBED3300902B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD20241127CBED2D00902B73 /* Project object */;
+}
