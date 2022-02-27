@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DD20241D27CBED2D00902B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20241C27CBED2D00902B73 /* AppDelegate.swift */; };
-		DD20241F27CBED2D00902B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20241E27CBED2D00902B73 /* SceneDelegate.swift */; };
-		DD20242127CBED2D00902B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20242027CBED2D00902B73 /* ViewController.swift */; };
-		DD20242427CBED2D00902B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20242227CBED2D00902B73 /* Main.storyboard */; };
+		DD20242127CBED2D00902B73 /* ShowUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20242027CBED2D00902B73 /* ShowUsersViewController.swift */; };
 		DD20242627CBED3200902B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD20242527CBED3200902B73 /* Assets.xcassets */; };
 		DD20242927CBED3200902B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20242727CBED3200902B73 /* LaunchScreen.storyboard */; };
 		DD20243427CBED3300902B73 /* MisterAuto_MiniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20243327CBED3300902B73 /* MisterAuto_MiniAppTests.swift */; };
 		DD20243F27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20243E27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift */; };
+		DD20245F27CBF5C000902B73 /* AnyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245627CBF5C000902B73 /* AnyRouter.swift */; };
+		DD20246027CBF5C000902B73 /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245727CBF5C000902B73 /* AnyView.swift */; };
+		DD20246127CBF5C000902B73 /* AnyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245827CBF5C000902B73 /* AnyInteractor.swift */; };
+		DD20246227CBF5C000902B73 /* AnyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245927CBF5C000902B73 /* AnyPresenter.swift */; };
+		DD20246327CBF5C000902B73 /* EnumNetworkRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245D27CBF5C000902B73 /* EnumNetworkRoutes.swift */; };
+		DD20246427CBF5C000902B73 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20245E27CBF5C000902B73 /* NetworkService.swift */; };
+		DD20246A27CBF66900902B73 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20246927CBF66900902B73 /* Helpers.swift */; };
+		DDD9B57027CBF8B6004E4193 /* ShowUsersViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B56F27CBF8B6004E4193 /* ShowUsersViewControllerPresenter.swift */; };
+		DDD9B57827CBF8D6004E4193 /* ShowUsersViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B57727CBF8D6004E4193 /* ShowUsersViewControllerRouter.swift */; };
+		DDD9B57E27CBF91B004E4193 /* ShowUsersViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B57D27CBF91B004E4193 /* ShowUsersViewControllerInteractor.swift */; };
+		DDD9B58727CBF9D4004E4193 /* ShowUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B58627CBF9D4004E4193 /* ShowUser.swift */; };
+		DDD9B5AF27CC0558004E4193 /* ShowUserTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B5AE27CC0558004E4193 /* ShowUserTasksViewController.swift */; };
+		DDD9B5B427CC055E004E4193 /* ShowUserTasksViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B5B327CC055E004E4193 /* ShowUserTasksViewControllerRouter.swift */; };
+		DDD9B5BE27CC0567004E4193 /* ShowUserTasksViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B5B927CC0567004E4193 /* ShowUserTasksViewControllerPresenter.swift */; };
+		DDD9B5BF27CC0567004E4193 /* ShowUserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B5BB27CC0567004E4193 /* ShowUserTask.swift */; };
+		DDD9B5C027CC0567004E4193 /* ShowUserTasksViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9B5BD27CC0567004E4193 /* ShowUserTasksViewControllerInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +51,7 @@
 /* Begin PBXFileReference section */
 		DD20241927CBED2D00902B73 /* MisterAuto-MiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MisterAuto-MiniApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD20241C27CBED2D00902B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD20241E27CBED2D00902B73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD20242027CBED2D00902B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD20242327CBED2D00902B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD20242027CBED2D00902B73 /* ShowUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUsersViewController.swift; sourceTree = "<group>"; };
 		DD20242527CBED3200902B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD20242827CBED3200902B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD20242A27CBED3200902B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,22 @@
 		DD20243A27CBED3300902B73 /* MisterAuto-MiniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MisterAuto-MiniAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD20243E27CBED3300902B73 /* MisterAuto_MiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterAuto_MiniAppUITests.swift; sourceTree = "<group>"; };
 		DD20244027CBED3300902B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD20245627CBF5C000902B73 /* AnyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyRouter.swift; sourceTree = "<group>"; };
+		DD20245727CBF5C000902B73 /* AnyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
+		DD20245827CBF5C000902B73 /* AnyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyInteractor.swift; sourceTree = "<group>"; };
+		DD20245927CBF5C000902B73 /* AnyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyPresenter.swift; sourceTree = "<group>"; };
+		DD20245D27CBF5C000902B73 /* EnumNetworkRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumNetworkRoutes.swift; sourceTree = "<group>"; };
+		DD20245E27CBF5C000902B73 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DD20246927CBF66900902B73 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DDD9B56F27CBF8B6004E4193 /* ShowUsersViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUsersViewControllerPresenter.swift; sourceTree = "<group>"; };
+		DDD9B57727CBF8D6004E4193 /* ShowUsersViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUsersViewControllerRouter.swift; sourceTree = "<group>"; };
+		DDD9B57D27CBF91B004E4193 /* ShowUsersViewControllerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUsersViewControllerInteractor.swift; sourceTree = "<group>"; };
+		DDD9B58627CBF9D4004E4193 /* ShowUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUser.swift; sourceTree = "<group>"; };
+		DDD9B5AE27CC0558004E4193 /* ShowUserTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserTasksViewController.swift; sourceTree = "<group>"; };
+		DDD9B5B327CC055E004E4193 /* ShowUserTasksViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserTasksViewControllerRouter.swift; sourceTree = "<group>"; };
+		DDD9B5B927CC0567004E4193 /* ShowUserTasksViewControllerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserTasksViewControllerPresenter.swift; sourceTree = "<group>"; };
+		DDD9B5BB27CC0567004E4193 /* ShowUserTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserTask.swift; sourceTree = "<group>"; };
+		DDD9B5BD27CC0567004E4193 /* ShowUserTasksViewControllerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserTasksViewControllerInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +127,11 @@
 		DD20241B27CBED2D00902B73 /* MisterAuto-MiniApp */ = {
 			isa = PBXGroup;
 			children = (
+				DDD9B56B27CBF87B004E4193 /* Modules */,
+				DD20246827CBF5C600902B73 /* Resouces */,
+				DD20245527CBF5C000902B73 /* Protocols */,
+				DD20245A27CBF5C000902B73 /* Services */,
 				DD20241C27CBED2D00902B73 /* AppDelegate.swift */,
-				DD20241E27CBED2D00902B73 /* SceneDelegate.swift */,
-				DD20242027CBED2D00902B73 /* ViewController.swift */,
-				DD20242227CBED2D00902B73 /* Main.storyboard */,
-				DD20242527CBED3200902B73 /* Assets.xcassets */,
-				DD20242727CBED3200902B73 /* LaunchScreen.storyboard */,
 				DD20242A27CBED3200902B73 /* Info.plist */,
 			);
 			path = "MisterAuto-MiniApp";
@@ -126,6 +153,165 @@
 				DD20244027CBED3300902B73 /* Info.plist */,
 			);
 			path = "MisterAuto-MiniAppUITests";
+			sourceTree = "<group>";
+		};
+		DD20245527CBF5C000902B73 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DD20245627CBF5C000902B73 /* AnyRouter.swift */,
+				DD20245727CBF5C000902B73 /* AnyView.swift */,
+				DD20245827CBF5C000902B73 /* AnyInteractor.swift */,
+				DD20245927CBF5C000902B73 /* AnyPresenter.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DD20245A27CBF5C000902B73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD20246927CBF66900902B73 /* Helpers.swift */,
+				DD20245B27CBF5C000902B73 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD20245B27CBF5C000902B73 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				DD20245C27CBF5C000902B73 /* Enums */,
+				DD20245E27CBF5C000902B73 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		DD20245C27CBF5C000902B73 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DD20245D27CBF5C000902B73 /* EnumNetworkRoutes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		DD20246827CBF5C600902B73 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				DD20242527CBED3200902B73 /* Assets.xcassets */,
+				DD20242727CBED3200902B73 /* LaunchScreen.storyboard */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		DD20246E27CBF6B000902B73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD20242027CBED2D00902B73 /* ShowUsersViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDD9B56B27CBF87B004E4193 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5AB27CC0516004E4193 /* UserTask */,
+				DDD9B56C27CBF882004E4193 /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DDD9B56C27CBF882004E4193 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B58527CBF9C7004E4193 /* Entities */,
+				DDD9B57C27CBF909004E4193 /* Interactor */,
+				DDD9B56E27CBF8A1004E4193 /* Presenter */,
+				DDD9B56D27CBF898004E4193 /* Router */,
+				DD20246E27CBF6B000902B73 /* View */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		DDD9B56D27CBF898004E4193 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B57727CBF8D6004E4193 /* ShowUsersViewControllerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DDD9B56E27CBF8A1004E4193 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B56F27CBF8B6004E4193 /* ShowUsersViewControllerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DDD9B57C27CBF909004E4193 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B57D27CBF91B004E4193 /* ShowUsersViewControllerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DDD9B58527CBF9C7004E4193 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B58627CBF9D4004E4193 /* ShowUser.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DDD9B5AB27CC0516004E4193 /* UserTask */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5BA27CC0567004E4193 /* Entities */,
+				DDD9B5BC27CC0567004E4193 /* Interactor */,
+				DDD9B5B827CC0567004E4193 /* Presenter */,
+				DDD9B5AD27CC052E004E4193 /* View */,
+				DDD9B5AC27CC0520004E4193 /* Router */,
+			);
+			path = UserTask;
+			sourceTree = "<group>";
+		};
+		DDD9B5AC27CC0520004E4193 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5B327CC055E004E4193 /* ShowUserTasksViewControllerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DDD9B5AD27CC052E004E4193 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5AE27CC0558004E4193 /* ShowUserTasksViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDD9B5B827CC0567004E4193 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5B927CC0567004E4193 /* ShowUserTasksViewControllerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DDD9B5BA27CC0567004E4193 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5BB27CC0567004E4193 /* ShowUserTask.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DDD9B5BC27CC0567004E4193 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9B5BD27CC0567004E4193 /* ShowUserTasksViewControllerInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +419,6 @@
 			files = (
 				DD20242927CBED3200902B73 /* LaunchScreen.storyboard in Resources */,
 				DD20242627CBED3200902B73 /* Assets.xcassets in Resources */,
-				DD20242427CBED2D00902B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +443,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD20242127CBED2D00902B73 /* ViewController.swift in Sources */,
+				DDD9B5AF27CC0558004E4193 /* ShowUserTasksViewController.swift in Sources */,
+				DD20242127CBED2D00902B73 /* ShowUsersViewController.swift in Sources */,
+				DDD9B57827CBF8D6004E4193 /* ShowUsersViewControllerRouter.swift in Sources */,
+				DD20246227CBF5C000902B73 /* AnyPresenter.swift in Sources */,
+				DDD9B57E27CBF91B004E4193 /* ShowUsersViewControllerInteractor.swift in Sources */,
+				DD20246427CBF5C000902B73 /* NetworkService.swift in Sources */,
 				DD20241D27CBED2D00902B73 /* AppDelegate.swift in Sources */,
-				DD20241F27CBED2D00902B73 /* SceneDelegate.swift in Sources */,
+				DD20246A27CBF66900902B73 /* Helpers.swift in Sources */,
+				DD20245F27CBF5C000902B73 /* AnyRouter.swift in Sources */,
+				DD20246127CBF5C000902B73 /* AnyInteractor.swift in Sources */,
+				DDD9B5B427CC055E004E4193 /* ShowUserTasksViewControllerRouter.swift in Sources */,
+				DDD9B5BE27CC0567004E4193 /* ShowUserTasksViewControllerPresenter.swift in Sources */,
+				DD20246027CBF5C000902B73 /* AnyView.swift in Sources */,
+				DDD9B58727CBF9D4004E4193 /* ShowUser.swift in Sources */,
+				DD20246327CBF5C000902B73 /* EnumNetworkRoutes.swift in Sources */,
+				DDD9B5C027CC0567004E4193 /* ShowUserTasksViewControllerInteractor.swift in Sources */,
+				DDD9B57027CBF8B6004E4193 /* ShowUsersViewControllerPresenter.swift in Sources */,
+				DDD9B5BF27CC0567004E4193 /* ShowUserTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +496,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD20242227CBED2D00902B73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD20242327CBED2D00902B73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD20242727CBED3200902B73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUAG7T3NQ7;
 				INFOPLIST_FILE = "MisterAuto-MiniApp/Info.plist";
@@ -443,8 +636,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +650,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QUAG7T3NQ7;
 				INFOPLIST_FILE = "MisterAuto-MiniApp/Info.plist";
@@ -464,6 +660,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siempay.MisterAuto-MiniApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
